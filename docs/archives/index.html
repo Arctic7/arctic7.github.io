@@ -34,52 +34,20 @@
         
         
         <div class="profile sm:text-center md:px-1 lg:px-3 sm:pb-4 sm:pt-6">
-            <a id="avatar" role="link" href="https://github.com/fengkx" class="inline-block lg:w-16 lg:h-16 w-8 h-8 m-2" target="_blank" rel="noopener" rel="noreferrer" >
-                <img src="https://www.gravatar.com/avatar/0bc83cb571cd1c50ba6f3e8a78ef1346?s=128" class="rounded-full" alt="avatar">
+            <a id="avatar" role="link" href="https://arctic7.github.io/" class="inline-block lg:w-16 lg:h-16 w-8 h-8 m-2" target="_blank" rel="noopener" rel="noreferrer" >
+                <img src="/images/avatar.jpg" class="rounded-full" alt="avatar">
             </a>
-            <h2 id="name" class="hidden lg:block">fengkx</h2>
-            <h3 id="title" class="hidden xl:block">Student &amp; Coder</h3>
+            <h2 id="name" class="hidden lg:block">Arctic7</h2>
+            <h3 id="title" class="hidden xl:block">前端工程师</h3>
             
             <small id="location" class="hidden lg:block">
                 <i class="iconfont icon-map-icon"></i>
-                Guangzhou, China
+                中国北京
             </small>
             
         </div>
         
         
-<div class="search flex-1 flex lg:inline-block sm:hidden lg:px-4 lg:mt-2 lg:mb-4 lg:w-full">
-    <form id="search-form" class="my-auto flex-1 lg:border lg:border-solid lg:border-gray-200">
-        <div class="input-group table bg-gray-100 lg:bg-white w-full">
-            <input id="search-input" type="text" placeholder="搜索" class="inline-block w-full bg-gray-100 lg:bg-white">
-            <span class="table-cell">
-                <button name="search tigger button" disabled>
-                    <i class="iconfont icon-search m-2"></i>
-                </button>
-            </span>
-        </div>
-    </form>
-        
-<div id="content-json" data-placeholder="搜索" class="invisible hidden">/content.json</div>
-<script id="search-teamplate" type="text/html" data-path="/content.json">
-    <div>
-        <div class="search-header bg-gray-400">
-            <input id="actual-search-input" model="keyword" ref="input" class="inline-block w-full h-10 px-2 py-1" placeholder="搜索" type="text">
-        </div>
-        <div class="search-result bg-gray-200">
-            {{#each searchPosts}}
-            <a href="/{{ path }}" class="result-item block px-2 pb-3 mb-1 pt-1 hover:bg-indigo-100">
-                <i class="iconfont icon-file"></i>
-                <h1 class="result-title inline font-medium text-lg">{{ title }}</h1>
-                <p class="result-content text-gray-600 text-sm">{{{ text }}}</p>
-            </a>
-            {{/each}}
-        </div>
-    </div>
-</script>
-
-</div>
-
 
         <button name="menu toogle button" id="menu-toggle-btn" class="block sm:hidden p-3" role="button" aria-expanded="false">
             <i class="iconfont icon-hamburger"></i>
@@ -120,22 +88,6 @@
             </div>
         
         
-            <div class="menu-item menu-repository" role="menuitem">
-                <a href="/repository">
-                    <i class="iconfont icon-project" aria-hidden="true"></i>
-                    <span class="menu-title">项目</span>
-                </a>
-            </div>
-        
-        
-            <div class="menu-item menu-links" role="menuitem">
-                <a href="/links">
-                    <i class="iconfont icon-friend" aria-hidden="true"></i>
-                    <span class="menu-title">友链</span>
-                </a>
-            </div>
-        
-        
             <div class="menu-item menu-about" role="menuitem">
                 <a href="/about">
                     <i class="iconfont icon-cup" aria-hidden="true"></i>
@@ -147,30 +99,9 @@
 <div class="social-links flex sm:flex-col lg:hidden mt-5">
     
         <span class="social-item text-center">
-            <a target="_blank" rel="noopener" href="https://github.com/fengkx">
+            <a href="https://arctic7.github.io/">
                 <i class="iconfont social-icon icon-github"></i>
                 <span class="menu-title hidden lg:inline">menu.github</span>
-            </a>
-        </span>
-    
-        <span class="social-item text-center">
-            <a target="_blank" rel="noopener" href="https://t.me/fengkx">
-                <i class="iconfont social-icon icon-telegram"></i>
-                <span class="menu-title hidden lg:inline">menu.telegram</span>
-            </a>
-        </span>
-    
-        <span class="social-item text-center">
-            <a target="_blank" rel="noopener" href="https://twitter.com/example">
-                <i class="iconfont social-icon icon-twitter"></i>
-                <span class="menu-title hidden lg:inline">menu.twitter</span>
-            </a>
-        </span>
-    
-        <span class="social-item text-center">
-            <a href="/atom.xml">
-                <i class="iconfont social-icon icon-rss"></i>
-                <span class="menu-title hidden lg:inline">menu.rss</span>
             </a>
         </span>
     
@@ -269,20 +200,8 @@
     
     <div class="footer-social-links">
         
-            <a target="_blank" rel="noopener" href="https://github.com/fengkx">
+            <a href="https://arctic7.github.io/">
                 <i class="iconfont icon-github"></i>
-            </a>
-        
-            <a target="_blank" rel="noopener" href="https://t.me/fengkx">
-                <i class="iconfont icon-telegram"></i>
-            </a>
-        
-            <a target="_blank" rel="noopener" href="https://twitter.com/example">
-                <i class="iconfont icon-twitter"></i>
-            </a>
-        
-            <a href="/atom.xml">
-                <i class="iconfont icon-rss"></i>
             </a>
         
     </div>
